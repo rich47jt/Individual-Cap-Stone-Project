@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Project_Cap_Stone.Models
 {
-    public class LessonOverView
+    public class Review
     {
         [Key]
-        public int Id { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime End { get; set; }
+        public int id { get; set; }
+        public int rating { get; set; }
         public string Description { get; set; }
     }
 }
